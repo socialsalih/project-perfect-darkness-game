@@ -4,25 +4,14 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    public float speed = 10f; // karakterin hýzý
+    public float speed = 5f; // karakterin hýzý
 
     void Update()
     {
-        float moveHorizontal = Input.GetAxis("Vertical"); // yatay (sað/sol) hareketi al
-        float moveVertical = Input.GetAxis("Horizontal"); // dikey (yukarý/aþaðý) hareketi al
+        float horizontal = Input.GetAxisRaw("Vertical"); // A, D tuþlarýndan gelen girdiyi al
+        float vertical = Input.GetAxisRaw("Horizontal"); // W, S tuþlarýndan gelen girdiyi al
 
-        // W, A, S, D tuþlarýna karþýlýk gelen girdileri al
-        float moveW = Input.GetKey(KeyCode.W) ? 1f : 0f;
-        float moveA = Input.GetKey(KeyCode.A) ? -1f : 0f;
-        float moveS = Input.GetKey(KeyCode.S) ? -1f : 0f;
-        float moveD = Input.GetKey(KeyCode.D) ? 1f : 0f;
-
-        // tüm girdileri birleþtir
-        float moveHorizontalTotal = moveHorizontal + moveS+ moveW;
-        float moveVerticalTotal = moveVertical + moveA + moveD;
-
-        Vector3 movement = new Vector3(moveHorizontalTotal, 0.0f, moveVerticalTotal); // hareket vektörü oluþtur
-
-        transform.position += movement * speed * Time.deltaTime; // karakteri hareket ettir
+        // karakterin pozisyonunu deðiþtir
+        transform.position += new Vector3(-(horizontal), 0, vertical) * speed * Time.deltaTime;
     }
 }
