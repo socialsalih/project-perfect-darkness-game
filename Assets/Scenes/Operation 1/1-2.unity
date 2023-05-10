@@ -10242,7 +10242,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_BackGroundColor: {r: 0.32983267, g: 0.45104027, b: 0.6415094, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -14747,6 +14747,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1154309166}
   - component: {fileID: 1154309165}
+  - component: {fileID: 1154309167}
   m_Layer: 0
   m_Name: Directional Light
   m_TagString: Untagged
@@ -14831,6 +14832,15 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!45 &1154309167
+Skybox:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1154309164}
+  m_Enabled: 1
+  m_CustomSkybox: {fileID: 2100000, guid: 72deae4d18418f94688abef8e8483df0, type: 2}
 --- !u!1001 &1159474552
 PrefabInstance:
   m_ObjectHideFlags: 0
