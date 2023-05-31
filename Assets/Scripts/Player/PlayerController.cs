@@ -22,12 +22,19 @@ public class PlayerController : MonoBehaviour
 
         if ((horizontal == 0) && (vertical == 0))
         {
+            if (Input.GetMouseButtonDown(0))
+            {
+                animator.SetBool("isStabbing", true);
+            }
+            else
+            {
+                animator.SetBool("isStabbing", false);
+
+            }
+
             animator.SetBool("isMoving", false);
         }
         else
-        {
-
-        }
         {
             animator.SetBool("isMoving", true);
         }
