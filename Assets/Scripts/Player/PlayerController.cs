@@ -5,7 +5,13 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     public float speed = 5f; // karakterin hýzý
+    private Animator animator;
 
+    void Start()
+    {
+        animator = GetComponent<Animator>();
+
+    }
     void Update()
     {
         float horizontal = Input.GetAxisRaw("Vertical"); // A, D tuþlarýndan gelen girdiyi al
@@ -13,5 +19,17 @@ public class PlayerController : MonoBehaviour
 
         // karakterin pozisyonunu deðiþtir
         transform.position += new Vector3(-(horizontal), 0, vertical) * speed * Time.deltaTime;
+
+        if ((horizontal == 0) && (vertical == 0))
+        {
+            animator.SetBool("isMoving", false);
+        }
+        else
+        {
+
+        }
+        {
+            animator.SetBool("isMoving", true);
+        }
     }
 }
