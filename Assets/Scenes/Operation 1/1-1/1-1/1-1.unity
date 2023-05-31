@@ -13067,6 +13067,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Jennifer T-Pose
       objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: 8c813094e5aaa874080ac6d1d1098b23, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: c71d58f5170800d4eb34587f9f03c441, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8c813094e5aaa874080ac6d1d1098b23, type: 3}
 --- !u!1001 &1271766805
