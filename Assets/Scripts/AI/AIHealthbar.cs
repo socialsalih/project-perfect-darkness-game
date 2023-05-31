@@ -39,14 +39,14 @@ public class AIHealthbar : MonoBehaviour
         Destroy(gameObject);
     }
 
-    private void OnCollisionEnter(Collision collision)
+     /* private void OnCollisionEnter(Collision collision)
     {
         if (collision.gameObject.CompareTag("PlayerBullet"))
         {
-            int damageAmount = collision.gameObject.GetComponent<Bullet>().damageAmount;
+              int damageAmount = collision.gameObject.GetComponent<Bullet>().damageAmount;
             TakeDamage(damageAmount);
 
             Destroy(collision.gameObject);
         }
-    }
+    } */
 }
