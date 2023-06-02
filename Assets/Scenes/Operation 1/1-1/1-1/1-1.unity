@@ -17246,19 +17246,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 8c813094e5aaa874080ac6d1d1098b23, type: 3}
   m_PrefabInstance: {fileID: 1271388307}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1620776008
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1620776005}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f610d206fc4db664d8e041171cfb4c87, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 5
 --- !u!54 &1620776009
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -17286,8 +17273,24 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1.8159415, z: 0.37617403}
-  m_Center: {x: -2.0872173e-16, y: 0.931966, z: 0.0119694285}
+  m_Size: {x: 1, y: 1.4847527, z: 0.37617403}
+  m_Center: {x: -2.0872173e-16, y: 1.0975581, z: 0.0119694285}
+--- !u!114 &1620776012
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1620776005}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7ce7f11e596edf4f9b76cafda790019, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rotationSpeed: 75
+  walkSpeed: 4
+  jumpForce: 0
+  coinSound: {fileID: 0}
 --- !u!1001 &1630182435
 PrefabInstance:
   m_ObjectHideFlags: 0
