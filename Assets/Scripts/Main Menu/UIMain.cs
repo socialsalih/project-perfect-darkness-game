@@ -65,6 +65,46 @@ public class UIMain : MonoBehaviour
     {
         Application.LoadLevel("2-5");
     }
+    public void LevelEleven()
+    {
+        Application.LoadLevel("3-1");
+    }
+    public void LevelTwelve()
+    {
+        Application.LoadLevel("3-2");
+    }
+    public void LevelThirteen()
+    {
+        Application.LoadLevel("3-3");
+    }
+    public void LevelFourteen()
+    {
+        Application.LoadLevel("3-4");
+    }
+    public void LevelFifteen()
+    {
+        Application.LoadLevel("3-5");
+    }
+    public void LevelSixteen()
+    {
+        Application.LoadLevel("4-1");
+    }
+    public void LevelSeventeen()
+    {
+        Application.LoadLevel("4-2");
+    }
+    public void LevelEighteen()
+    {
+        Application.LoadLevel("4-3");
+    }
+    public void LevelNineteen()
+    {
+        Application.LoadLevel("4-4");
+    }
+    public void LevelTwenty()
+    {
+        Application.LoadLevel("4-5");
+    }
     public void Credits()
     {
         mainScreen.SetActive(false);
