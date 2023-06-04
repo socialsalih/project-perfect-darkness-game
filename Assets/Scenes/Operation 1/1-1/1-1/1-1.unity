@@ -17451,23 +17451,6 @@ MonoBehaviour:
   pistol: {fileID: 0}
   rifle: {fileID: 0}
   playerAnimator: {fileID: 1620776015}
---- !u!114 &1620776017
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1620776005}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d65284161322bc34889b6c31fb732f1e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  bulletPrefab: {fileID: 0}
-  bulletSpawnPoint: {fileID: 0}
-  bulletSpeed: 10
-  fireRate: 0.5
-  ammoTag: Ammo
 --- !u!1001 &1630182435
 PrefabInstance:
   m_ObjectHideFlags: 0
