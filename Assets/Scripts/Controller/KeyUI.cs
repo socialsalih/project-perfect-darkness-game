@@ -5,7 +5,7 @@ using TMPro;
 
 public class KeyUI : MonoBehaviour
 {
-    private TextMeshProUGUI keyText;
+    public TextMeshProUGUI keyText;
 
     // Start is called before the first frame update
     void Start()

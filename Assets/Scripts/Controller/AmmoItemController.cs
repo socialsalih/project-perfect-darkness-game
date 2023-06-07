@@ -6,7 +6,6 @@ public class AmmoItemController : MonoBehaviour
     public string playerTag = "Player";
     public string ammoTag = "Ammo";
     public int ammoIncreaseAmount = 10;
-    public GameObject ammoUI;
 
     private int ammoCount = 0;
 
@@ -20,14 +19,9 @@ public class AmmoItemController : MonoBehaviour
                 {
                     Destroy(gameObject);
                     ammoCount += ammoIncreaseAmount;
-                    UpdateAmmoUI();
                 }
             }
         }
     }
 
-    private void UpdateAmmoUI()
-    {
-        ammoUI.GetComponentInChildren<Text>().text = "Ammo: " + ammoCount.ToString();
-    }
 }
