@@ -24238,15 +24238,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: f323d276b11e81143a347a97e9cfffb4, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 3.55
+      value: 15.35
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: f323d276b11e81143a347a97e9cfffb4, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.57
+      value: 1.992
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: f323d276b11e81143a347a97e9cfffb4, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -4.47
+      value: 0.021
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: f323d276b11e81143a347a97e9cfffb4, type: 3}
       propertyPath: m_LocalRotation.w
@@ -24314,8 +24314,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.092078514, y: 0.11748799, z: 0.0100000035}
-  m_Center: {x: 0.006039272, y: -0.012081216, z: -8.330323e-17}
+  m_Size: {x: 0.092078514, y: 0.13082415, z: 0.0100000035}
+  m_Center: {x: 0.0060392716, y: -0.018749293, z: -8.333031e-17}
 --- !u!1001 &1409143256
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -24586,11 +24586,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -3542852092398272455, guid: 8ec5bd1fd6ea97846940e8e2a81dd48c, type: 3}
       propertyPath: m_LocalScale.y
-      value: 143.68758
+      value: 204.56596
+      objectReference: {fileID: 0}
+    - target: {fileID: -3542852092398272455, guid: 8ec5bd1fd6ea97846940e8e2a81dd48c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 50.93
       objectReference: {fileID: 0}
     - target: {fileID: -3542852092398272455, guid: 8ec5bd1fd6ea97846940e8e2a81dd48c, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 6.43
+      value: 10.31
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 8ec5bd1fd6ea97846940e8e2a81dd48c, type: 3}
       propertyPath: m_Name
