@@ -8,7 +8,7 @@ public class BulletDamage : MonoBehaviour
     {
         if (collision.collider.gameObject.tag == "enemy")
         {
-            collision.gameObject.GetComponent<EnemyHealth>().TakeDamage(1);
+            collision.gameObject.GetComponent<EnemyHealth>().TakeDamage(20);
         }
     }
 
