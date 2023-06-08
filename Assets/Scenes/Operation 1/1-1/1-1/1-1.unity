@@ -21101,6 +21101,25 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1857100347 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1655169265802466887, guid: df7df88f5c0c4be4d8c98553b88c9a5d, type: 3}
+  m_PrefabInstance: {fileID: 1889610222110844032}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1857100348
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1857100347}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d994fa8f537566d46a60ab6fc9062c00, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHealth: 10
+  currentHealth: 0
 --- !u!1001 &1859017718
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -25667,6 +25686,10 @@ PrefabInstance:
     - target: {fileID: 1655169265802466887, guid: df7df88f5c0c4be4d8c98553b88c9a5d, type: 3}
       propertyPath: m_Name
       value: navMeshAgent
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655169265802466887, guid: df7df88f5c0c4be4d8c98553b88c9a5d, type: 3}
+      propertyPath: m_TagString
+      value: enemy
       objectReference: {fileID: 0}
     - target: {fileID: 1889610223015494895, guid: df7df88f5c0c4be4d8c98553b88c9a5d, type: 3}
       propertyPath: timer
