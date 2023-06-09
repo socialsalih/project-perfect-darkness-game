@@ -5,8 +5,15 @@ using UnityEngine.SceneManagement;
 
 public class SceneManager1 : MonoBehaviour
 {
-    void OnTriggerEnter(Collider other)
+    private void OnTriggerEnter(Collider other)
     {
-            SceneManager.LoadScene(1); 
+        if (other.tag == "Goal")
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        }
+        if (other.tag == "Finish")
+        {
+            SceneManager.LoadScene(1);
+        }
     }
 }

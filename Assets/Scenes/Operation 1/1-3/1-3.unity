@@ -23950,7 +23950,7 @@ GameObject:
   - component: {fileID: 1276518830}
   m_Layer: 0
   m_Name: Level_Finished
-  m_TagString: Untagged
+  m_TagString: Goal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23966,8 +23966,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1, y: 12.004378, z: 0.9999999}
+  m_Center: {x: 0, y: -0.015948016, z: 0}
 --- !u!23 &1276518831
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -25022,6 +25022,7 @@ GameObject:
   - component: {fileID: 1341351910}
   - component: {fileID: 1341351909}
   - component: {fileID: 1341351908}
+  - component: {fileID: 1341351918}
   m_Layer: 8
   m_Name: PlayerArmature
   m_TagString: Player
@@ -25361,6 +25362,18 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1341351918
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1341351906}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cfd52b83841af88458fb6b378fb42eba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1342314611
 PrefabInstance:
   m_ObjectHideFlags: 0

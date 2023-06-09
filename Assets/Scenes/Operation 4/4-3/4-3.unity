@@ -20391,6 +20391,7 @@ GameObject:
   - component: {fileID: 587771998}
   - component: {fileID: 587771997}
   - component: {fileID: 587771996}
+  - component: {fileID: 587772006}
   m_Layer: 8
   m_Name: PlayerArmature
   m_TagString: Player
@@ -20730,6 +20731,18 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &587772006
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 587771994}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cfd52b83841af88458fb6b378fb42eba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &588866303
 GameObject:
   m_ObjectHideFlags: 0
@@ -46944,7 +46957,7 @@ GameObject:
   - component: {fileID: 1276518830}
   m_Layer: 0
   m_Name: Level_Finished
-  m_TagString: Untagged
+  m_TagString: Goal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -46960,8 +46973,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1, y: 19.660427, z: 0.9999999}
+  m_Center: {x: 0, y: 1.7283877, z: 0}
 --- !u!23 &1276518831
 MeshRenderer:
   m_ObjectHideFlags: 0
