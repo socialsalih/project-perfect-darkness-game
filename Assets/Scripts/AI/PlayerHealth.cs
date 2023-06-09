@@ -25,10 +25,11 @@ public class PlayerHealth : MonoBehaviour
 
     public void TakeDamage(int amount1)
     {
+        Scene currentScene = SceneManager.GetActiveScene();
         currentHealth -= amount1;
         if (currentHealth <= 0)
         {
-            SceneManager.LoadScene(1);
+            SceneManager.LoadScene(currentScene.name) ;
         }
     }
 }
